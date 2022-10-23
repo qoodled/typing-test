@@ -1,0 +1,51 @@
+* {
+  background-color: #282c34;
+}
+
+.Sentence {
+  text-align: center;
+  /*display: inline-block;*/
+  color: white;
+  font-size: 30px;
+  top: 40px;
+}
+
+.Stats {
+  color: white;
+}
+
+.Restart {
+  color: white;
+  background-color: rgb(83, 158, 255);
+  border-radius: 10px;
+  border: 0px;
+}
+
+.Restart:active {
+  background-color: rgba(0, 110, 255, 0.775);
+}
+
+/*
+input {
+  color: white;
+  width: 50%;
+  height: 30px;
+  font-size: 25px
+}
+*/
+
+input {
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 30px;
+  width: 50%;
+  position: relative;
+  left: 0;
+  outline: none;
+  color: white;
+  border: 1px solid #cdcdcd;
+  border-color: rgba(0, 0, 0, .15);
+  background-color: #343a46;
+  font-size: 16px;
+  border-radius: 10px;
+}
